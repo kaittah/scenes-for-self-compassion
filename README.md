@@ -1,5 +1,8 @@
 # Scenes for Self Compassion
 
+<img width="1352" height="833" alt="image" src="https://github.com/user-attachments/assets/b52a4b57-af05-4537-b53e-981f0f6de380" />
+
+
 Open `index.html` in a browser, or run `python3 -m http.server 8000` and visit http://localhost:8000. No installation or build is needed.
 
 Enter a situation and move through the scene, then talk with the main character. Each reply can change their facial expression and posture. The stage uses flat 2D illustrations with warm outlines, soft pastel fills, tiny faces, and expressive poses. Duckling, bear, blob, sprout, and human characters blink, waddle, and look toward one another on a white background. The canvas renderer works without WebGL or external image assets. The animation respects the browser's reduced-motion preference.
@@ -18,4 +21,4 @@ With an API key, each role makes its own model request in sequence, reading the 
 The simulation setup supports 1–6 characters. Expand each character card to edit its name and role prompt. Situation and cast changes apply on Start/Restart and do not alter an existing discussion. Customized simulations require an API key; the offline script keeps its original four-role cast.
 
 Both tabs now play automatically after starting. Reading time is based on dialogue length (about 165 words per minute, at least 5.5 seconds per line). Simulation rounds continue automatically through the proposed plan and pause for user input; sending input starts the follow-up playback. Pause/Play and turn controls remain available. The cast appears immediately while AI replies are being generated, and replies are added as they arrive.
-# scenes-for-self-compassion
+
